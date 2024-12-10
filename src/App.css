@@ -1,0 +1,37 @@
+body {
+  min-height: 100vh;
+
+  background: linear-gradient(to bottom, #08203e, rgb(62, 109, 183) 100%);
+}
+
+h1 {
+  font-size: 70px;
+  color: #fff;
+}
+
+.add-task-container {
+  background-color: rgb(62, 125, 183);
+}
+
+h2 {
+  color: #fff;
+}
+hr {
+  height: 3px;
+  background-color: black;
+  margin: 20px 0;
+}
+
+table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+tr {
+  padding: 10px;
+}
+
+input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
