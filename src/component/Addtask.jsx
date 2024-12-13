@@ -1,4 +1,7 @@
 export default function () {
+  const addTask = () => {
+    console.log("add task function called")
+  }
   return (
     <>
       {/* <!-- add task form row --> */}
@@ -10,7 +13,7 @@ export default function () {
           <input type='number' className='form-control' id='hour' placeholder='Hours' />
         </div>
         <div className='col-3 d-grid'>
-          <button type='button' className='btn btn-success' id='addTask'>
+          <button type='button' className='btn btn-success' id='addTask' onClick={addTask}>
             Add Task
           </button>
         </div>

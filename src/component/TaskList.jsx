@@ -1,19 +1,9 @@
 import { useState } from "react"
 import "../App.css"
 
-export default function TaskList() {
-  // let [goodList, setGoodList] = useState([])
-  // let [badList, setBadList] = useState([])
-
-  const goodList = [
-    { type: "good", task: "Typing Practice", hours: 1 },
-    { type: "good", task: "coding Practice", hours: 3 },
-  ]
-  const badList = [
-    { type: "bad", task: "Watch TV", hours: 1 },
-    { type: "bad", task: "Scroll Social Media", hours: 3 },
-  ]
-
+export default function TaskList({ goodList, badList }) {
+  console.log(`The good list is ${goodList}`) //undefined
+  console.log(`The bad list is ${badList}`) //undefined
   return (
     <>
       {/* <!-- task list row --> */}
