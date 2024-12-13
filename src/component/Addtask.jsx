@@ -2,15 +2,15 @@ export default function () {
   return (
     <>
       {/* <!-- add task form row --> */}
-      <div class='add-task-container row p-5 rounded '>
-        <div class='col-7'>
-          <input type='text' class='form-control' id='task' placeholder='Add your Task' />
+      <div className='add-task-container row p-5 rounded '>
+        <div className='col-7'>
+          <input type='text' className='form-control' id='task' placeholder='Add your Task' />
         </div>
-        <div class='col-2'>
-          <input type='number' class='form-control' id='hour' placeholder='Hours' />
+        <div className='col-2'>
+          <input type='number' className='form-control' id='hour' placeholder='Hours' />
         </div>
-        <div class='col-3 d-grid'>
-          <button type='button' class='btn btn-success' id='addTask' onclick='addTask()'>
+        <div className='col-3 d-grid'>
+          <button type='button' className='btn btn-success' id='addTask'>
             Add Task
           </button>
         </div>

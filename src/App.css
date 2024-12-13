@@ -4,8 +4,8 @@ body {
   background: linear-gradient(to bottom, #08203e, rgb(62, 109, 183) 100%);
 }
 
-h1 {
-  font-size: 70px;
+.main-title {
+  font-size: 80px;
   color: #fff;
 }
 
@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  color: #fff;
+  color: #a82b2b;
 }
 hr {
   height: 3px;
@@ -28,10 +28,4 @@ table {
 }
 tr {
   padding: 10px;
-}
-
-input[type="checkbox"] {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
 }

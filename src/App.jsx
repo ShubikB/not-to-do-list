@@ -7,11 +7,8 @@ import Toaster from "./component/Toaster"
 import Alert from "./component/Alert"
 
 function App() {
-
-
-  
   return (
-    <div className='container container-md'>
+    <div className='container-md'>
       <Header />
       <Addtask />
       <TaskList />

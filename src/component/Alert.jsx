@@ -1,9 +1,9 @@
 export default function Alert() {
   return (
     <>
-      <div class='row'>
-        <div class='col'>
-          <div class='alert alert-success' role='alert'>
+      <div className='row'>
+        <div className='col'>
+          <div className='alert alert-success' role='alert'>
             Total Hours Allocated = <span id='totalHours'>0</span> hours
           </div>
         </div>
